@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Softwaremeth_project_5</string>
+    <string name="donut_shop">Donut Shop</string>
+    <string name="store_orders">Store Orders</string>
+    <string name="order_details">Order Details</string>
+    <string name="donutimage">donutimage</string>
+    <string name="coffeeimage">coffeeimage</string>
+    <string name="todo">TODO</string>
+    <string name="storeordersimage">storeordersimage</string>
+    <string name="order_donuts">Order Donuts</string>
+    <string name="order_coffee">Order Coffee</string>
+    <string name="ru_cafe">RU Cafe</string>
+    <string name="cream">Cream</string>
+    <string name="milk">Milk</string>
+    <string name="syrup">Syrup</string>
+    <string name="caramel">Caramel</string>
+    <string name="whipped_cream">Whipped Cream</string>
+    <string name="subtotal">Subtotal</string>
+    <string name="add_to_order">Add To Order</string>
+    <string name="picture_for_coffee_page">picture for coffee page</string>
+    <string name="salestax">SalesTax</string>
+    <string name="total">Total</string>
+    <string name="place_order">Place Order</string>
+    <string name="your_order">Your Order</string>
+    <string name="remove_item">Remove Item</string>
+    <string name="cancel_order">Cancel Order</string>
+    <string-array name="numbers">
+        <item>One</item>
+        <item>Two</item>
+        <item>Three</item>
+        <item>Four</item>
+        <item>Five</item>
+    </string-array>
+    <string-array name="sizes">
+        <item>Short</item>
+        <item>Tall</item>
+        <item>Grande</item>
+        <item>Venti</item>
+    </string-array>
+    <string-array name="donuts">
+        <item>Chocolate</item>
+        <item>Vanilla</item>
+        <item>Blueberry</item>
+        <item>Glazed</item>
+        <item>Jelly-filled</item>
+    </string-array>
+    <string-array name="quantities_Donuts">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+</resources>

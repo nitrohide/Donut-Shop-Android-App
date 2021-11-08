@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.example.softwaremeth_project_5">
+
+    <application
+            android:allowBackup="true"
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/ru_cafe"
+            android:roundIcon="@mipmap/rucafe_icon_round"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme">
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".DonutsActivity"
+                  android:label="@string/order_donuts"
+                  android:parentActivityName=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.CALL"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".CoffeeActivity"
+                  android:label="@string/order_coffee"
+                  android:parentActivityName=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.CALL"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".OrdersdetailActivity"
+                  android:label="@string/order_details"
+                  android:parentActivityName=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.CALL"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".StoreordersActivity"
+                  android:label="@string/store_orders"
+                  android:parentActivityName=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.CALL"/>
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
